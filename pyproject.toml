@@ -3,6 +3,9 @@ name = "hamiltonian"
 version = "0.1.0"
 description = "Intent-Hamiltonian monitor for agentic and self-improving workloads"
 requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Tom Butler" }]
 dependencies = ["numpy>=1.26"]
 
 [project.optional-dependencies]

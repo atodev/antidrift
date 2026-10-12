@@ -13,9 +13,10 @@ Self-Improving Systems*.
 
 ## Paper
 
-**[Read the whitepaper](https://claude.ai/code/artifact/a2cedb60-34e0-47e9-aed8-6c910892a808)**
+**[Read the whitepaper (PDF)](paper/intent-as-a-conserved-quantity.pdf)**
 
-The link opens only for people the document has been shared with.
+The [living document](https://claude.ai/code/artifact/a2cedb60-34e0-47e9-aed8-6c910892a808)
+is the editable source; that link opens only for people it has been shared with.
 
 ## What the experiment found
 
@@ -89,8 +90,24 @@ for port, text in agent_steps:
 - `experiments/corpus.py` — step text for the synthetic experiment
 - `experiments/run.py` — trace generation, scoring and evaluation
 - `experiments/results_*.json` — results for the reporting, confirmation and development seeds
+- `paper/` — the whitepaper as a PDF, and its licence
 
 ## Status
 
 Research prototype. The paper, this code and the experiment's step text were drafted with
 an AI assistant and have not been independently reviewed.
+
+## Citing
+
+If you use this software or the concept it implements, please cite the paper. GitHub's
+"Cite this repository" button gives a ready-made reference from `CITATION.cff`.
+
+> Tom Butler. *Intent as a Conserved Quantity: Hamiltonian Monitoring of Agentic and
+> Recursively Self-Improving Systems.* 2026. https://github.com/atodev/antidrift
+
+## Licence
+
+- Code: [Apache-2.0](LICENSE). Redistributions must keep the [NOTICE](NOTICE) file.
+- Paper: [CC BY 4.0](paper/LICENSE.md).
+
+© 2026 Tom Butler

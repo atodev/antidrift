@@ -1,0 +1,9 @@
+antidrift
+Copyright 2026 Tom Butler (https://atodev.xyz)
+
+This product includes the reference implementation for the whitepaper
+"Intent as a Conserved Quantity: Hamiltonian Monitoring of Agentic and
+Recursively Self-Improving Systems" by Tom Butler.
+
+If you use this software or the ideas it implements, please cite the paper.
+See CITATION.cff.
